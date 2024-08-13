@@ -8,45 +8,31 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="/global.css" />
-    <link rel="stylesheet" type="text/css" href="/styles.css" />
+     <link rel="stylesheet" href="/styles.css">
     <title>Web Automation</title>
   </head>
   <body>
+                    <!-- Navigation Bar -->
     <nav class="nav-bar">
-      <img src="/public/wa_12.png" alt="logo" width="142" height="36" />
-      <ul>
-        <li>Marketplace</li>
-        <li class="has-dropdown">
-          Solutions
-          <img
-            src="/assets/chevron-down.svg"
-            alt="Dropdown Icon"
-            class="dropdown-icon"
-          />
-        </li>
-        <li class="has-dropdown">
-          Company<img
-            src="/assets/chevron-down.svg"
-            alt="Dropdown Icon"
-            class="dropdown-icon"
-          />
-        </li>
-        <li class="has-dropdown">
-          Resources<img
-            src="/assets/chevron-down.svg"
-            alt="Dropdown Icon"
-            class="dropdown-icon"
-          />
-        </li>
-        <li>Pricing</li>
-      </ul>
-      <div class="btn-container">
-        <button class="btn-1">Free trial</button>
-        <button class="btn-2">Sign up</button>
-      </div>
+      <div class="header">
+        <img src="/public/wa_12.png" alt="logo" width="142" height="36" />
+        <ul>
+          <li class="has-dropdown">Product<img src="/assets/chevron-down.svg" alt="Dropdown Icon" class="dropdown-icon"/></li>
+          <li class="has-dropdown"> Solutions <img src="/assets/chevron-down.svg" alt="Dropdown Icon" class="dropdown-icon"/></li>
+          <li class="has-dropdown"> Company<img src="/assets/chevron-down.svg" alt="Dropdown Icon" class="dropdown-icon"/></li>
+          <li class="has-dropdown"> Resources <img src="/assets/chevron-down.svg" alt="Dropdown Icon" class="dropdown-icon"/></li>
+          <li class="has-dropdown"> Pricing </li>
+        </ul>
+
+        <div class="btn-container">
+          <button class="btn-1">Free trial</button>
+          <button class="btn-2">Sign up</button>
+        </div>
+      </div> 
     </nav>
+                 <!-- mini-container -->
     <section>
-      <div class="pattern">
+      <div class="prod-container">
         <div class="hero-body">
           <div class="ratings">
             <img src="/assets/g2.png" alt="g2 rating" width="96" height="14" />
@@ -57,18 +43,20 @@
               height="14"
             />
           </div>
-          <h1 class="hero-text">
-            Turn any website into a Spreadsheet or API — perfect for
+
+          <h1 class="hero-text"> Turn any website into a Spreadsheet or API — perfect for
             <span class="hero-text-change">product</span>
           </h1>
-          <p class="hero-sub">
-            Extract Data instantly from any website in minutes without coding
-            using our ready made extractors
+
+          <p class="hero-sub-text">
+            Extract Data instantly from any website in minutes without coding using our ready made extractors
           </p>
+
           <div class="hero-button">
             <button class="request-button">Request a demo</button>
             <button class="get-started-button">Get started</button>
           </div>
+
           <div class="trial-box">
             <div>
               <img src="assets/credit-card-x.svg" alt="credit card icon" />
@@ -86,6 +74,7 @@
         </div>
       </div>
     </section>
+         
     <section class="overlay">
       <img src="/assets/overlay.png" alt="logo" width="1080" height="702" />
       <div class="logos">
@@ -104,6 +93,7 @@
         </div>
       </div>
     </section>
+
     <section class="third">
       <div class="extract">
         <h1 class="extract-text">Extract Data in <span>Simple Steps</span></h1>
@@ -147,6 +137,7 @@
           </div>
       </div>
     </section>
+
     <section class="fourth">
       <div class="extract">
         <h1 class="extract-text">Never Write Another <span>Web Scrapper</span></h1>
@@ -154,6 +145,7 @@
           Tired of getting blocked while web scraping? Our powerful infrastructure that runs on the cloud takes care of everything so you focus on getting the data you need, when you need it.
         </p>
       </div>
+
       <div class="card-frame">
         <div class="card-list">
           <div>
@@ -189,46 +181,77 @@
         </div>
       </div>
     </section>
+
     <section>
-      <div class="industry">
+      <div class="feature-section">
         <div class="jend">
          <h2 class="industry-header">How can <span>WebAutomation</span> help your industry?</h2>
          <p>
            Unlock the potential of your business with WebAutomation.
          </p>
         </div>
-        <div class="white-box-frame">
+        <div class="content-frame">
          <div class="white-box">
            <div><img src="/assets/building-07.png" alt="logo" width="24" height="24" /></div>
            <div class="white-box-text"><h4>Real Estate</h4> <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p></div>
          </div>
+
          <div class="white-box">
            <div><img src="/assets/shopping-bag-03.png" alt="logo" width="24" height="24" /></div>
            <div class="white-box-text"><h4>E-commerce & Retail</h4> <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p></div>
          </div>
+
          <div class="white-box">
            <div><img src="/assets/users-up.png" alt="logo" width="24" height="24" /></div>
            <div class="white-box-text"><h4>Job Data</h4> <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p></div>
          </div>
+
          <div class="white-box">
            <div><img src="/assets/scales-01.png" alt="logo" width="24" height="24" /></div>
            <div class="white-box-text"><h4>Sales & Marketing</h4> <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p></div>
          </div>
-         <div class="white-box-2">
+
+         <div class="white-box">
            <div><img src="/assets/building-08.png" alt="logo" width="24" height="24" /></div>
            <div class="white-box-text"><h4>Finance & Investment Research</h4> <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p></div>
          </div>
-         <div class="white-box-2">
+
+         <div class="white-box">
            <div><img src="/assets/plane.png" alt="logo" width="24" height="24" /></div>
            <div class="white-box-text"><h4>Travel, Hotel & Airline Data</h4> <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p></div>
          </div>
-         <div class="white-box-2">
+
+         <div class="white-box">
            <div><img src="/assets/book-closed.png" alt="logo" width="24" height="24" /></div>
            <div class="white-box-text"><h4>Academic Research & journalism</h4> <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p></div>
          </div>
+
         </div>
        </div>
        
     </section>
+
+    <!-- Advantages Section -->
+     <section class="feature-section">
+        <div class="lock-section">
+          <div class="Unlock-text">
+            <div class="Unlock-text-frame">
+              <h2><span>Unlock</span> your advantage</h2>
+
+              <p class="Unlock-parag">Tired of getting blocked while web scraping?
+                 Our powerful infrastructure that runs on the cloud takes care of everything
+                so you focus on getting the data you need, when you need it.
+              </p>
+            </div>
+           
+          </div>
+
+          <div class="Unlock-backg-img">
+            <img src="assets/Background.png" alt="img">
+          </div>
+
+         </div>
+
+     </section>
   </body>
 </html>
